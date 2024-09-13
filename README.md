@@ -20,3 +20,4 @@
 - NetflixGPT
     - Search Bar
     - Movie Suggestions
+    - Git ADDED
