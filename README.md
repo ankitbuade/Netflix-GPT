@@ -1,7 +1,7 @@
 # Steps Followed in netflix-gpt app
 - Created React app 
 - Configured Tailwind CSS
-- 
+-  Login Form
 
 
 # Features of Project

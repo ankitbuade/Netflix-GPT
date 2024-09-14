@@ -1,12 +1,16 @@
+import { createBrowserRouter } from 'react-router-dom'
+import React from 'react'
+import Browse from './components/Browse'
+import Body from './components/Body'
+import login from './components/Login'
+import { RouterProvider } from 'react-router-dom'
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="bg-slate-400 text-3xl font-bold text-neutral-100-400">
-     <h1 className="font-semibold"> Hello Every one</h1>
-    </div>
-  );
+
+      <Body/>
+  )
 }
 
-export default App;
+export default App
+
