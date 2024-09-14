@@ -2,6 +2,7 @@
 - Created React app 
 - Configured Tailwind CSS
 -  Login Form
+-  Sign Up form
 
 
 # Features of Project
