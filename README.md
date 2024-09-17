@@ -1,8 +1,19 @@
 # Steps Followed in netflix-gpt app
 - Created React app 
 - Configured Tailwind CSS
--  Login Form
--  Sign Up form
+- Routing of App
+- Login Form
+- Sign Up form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deployed Our App to Production
+- Create signUp User Account
+- implent sign in user Api
+- created Redux Store with userSlice
+- Implemted SignOut
+- Upadte profile APi call
+- Fetch movie from tmdi
 
 
 # Features of Project
