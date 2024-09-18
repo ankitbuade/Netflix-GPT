@@ -13,7 +13,13 @@
 - created Redux Store with userSlice
 - Implemted SignOut
 - Upadte profile APi call
-- Fetch movie from tmdi
+- Fetch movie from TMDB
+- Bug Fix navigate to browse page
+- Registeered for TMDB app
+- Get data from tmdb app on our browse page
+- 
+- 
+- 
 
 
 # Features of Project
