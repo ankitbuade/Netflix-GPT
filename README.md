@@ -17,9 +17,15 @@
 - Bug Fix navigate to browse page
 - Registeered for TMDB app
 - Get data from tmdb app on our browse page
-- 
-- 
-- 
+- custom Hook for Now Playing Movies 
+- create movie slice
+- update sote with movie data
+- planningfor main contianer & secondary ocnianer
+- fetch data for trailer video
+- embedded the youtube video and make it autoplay and mute
+- tialwind classes to make main contianer like awesome
+-  
+
 
 
 # Features of Project

@@ -8,6 +8,8 @@ const Browse = () => {
 
 useNowPlayingMovies()
 
+
+
   return (
     <div>
       <Header/>

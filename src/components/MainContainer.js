@@ -1,27 +1,34 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
-import VideoBackground from "./VideoBG"
-import VideoTitle from "./VideoTitlefile"
+import React from 'react';
+import { useSelector } from 'react-redux';
+import VideoBackground from './VideoBG';
+import VideoTitle from './VideoTitlefile';
 
 const MainContainer = () => {
+    // Access the movies from the Redux store
     const movies = useSelector((store) => store.movies?.nowPlayingMovies);
-    console.log('Movies from store:', movies); // Log the movies array
+    
+    // Log the movies array for debugging
+    console.log('Movies from store:', movies); 
 
-    if (!movies || movies.length === 0) return <div>Loading...</div>;
+    // Return early if movies is undefined, null, or an empty array
+    if (!movies ) {
+        console.log('No movies available'); // Add a log for clarity
+        return null; // You can return null or a fallback UI
+    }
 
+    // Safely access the first movie in the array
     const mainMovie = movies[0];
-    console.log('Main Movie:', mainMovie); // Log the first movie in the array
-
-    const { original_title, overview } = mainMovie || {};
+    
+    
+    // Destructure with fallback in case properties are missing
+    const { original_title , overview  } = mainMovie;
 
     return (
         <div>
-            <VideoTitle title={original_title} overview={overview} />
-            <VideoBackground />
+            <VideoTitle title={original_title} overview={overview} /> 
+            <VideoBackground movieId={365177}/>
         </div>
     );
-}
+};
 
-
-
-export default MainContainer
+export default MainContainer;
