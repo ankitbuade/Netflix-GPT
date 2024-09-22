@@ -8,8 +8,7 @@ const MainContainer = () => {
     const movies = useSelector((store) => store.movies?.nowPlayingMovies);
     
     // Log the movies array for debugging
-    console.log('Movies from store:', movies); 
-
+   
     // Return early if movies is undefined, null, or an empty array
     if (!movies ) {
         console.log('No movies available'); // Add a log for clarity

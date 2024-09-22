@@ -7,6 +7,7 @@ import { auth } from "../utils/firebase";
 import { updateProfile } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { BG_URL } from "../utils/constant ";
 
 
 const Login = () =>{
@@ -97,7 +98,7 @@ const toggleSignInForm = ()=>{
         <Header/>
      
     <div className="absolute">
-       <img className="" src="https://assets.nflxext.com/ffe/siteui/vlv3/85ff76db-39e5-423a-afbc-97d3e74db71b/null/IN-en-20240909-TRIFECTA-perspective_b22117e0-4610-4d57-a695-20f77d241a4a_large.jpg"/>     
+       <img className="" src={BG_URL} />     
     </div>    
 
     <form onClick={(e)=>e.preventDefault()

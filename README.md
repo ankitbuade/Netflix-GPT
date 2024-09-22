@@ -23,13 +23,18 @@
 - planningfor main contianer & secondary ocnianer
 - fetch data for trailer video
 - embedded the youtube video and make it autoplay and mute
-- tialwind classes to make main contianer like awesome
+- tailwind classes to make main contianer like awesome
 - Build secondary component
 - Build Movie List
 - Build Movie Card
 - TMDB Image CDN URl
 - Made the Browser looking good with tailwind css
 - usePopularMovoes custom Hook
+- GPT Search Feature
+- GPT Search Bar
+- Multi Lingual Feature in our search box
+- Integrate GPT API
+-  
 - 
 
 
